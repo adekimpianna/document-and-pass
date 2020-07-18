@@ -11,7 +11,8 @@
  *
  */
 const hello = (thing) => {
-  return ``;
+  let greeting = `Hello, ${thing}!`
+  return greeting;
 };
 
 module.exports = hello;
